@@ -1,5 +1,8 @@
 def my_each(collection)
-  collection.each do |i|
-    puts i
+  i = 0 
+  while i < collection.length 
+    i = i + 1
+  collection.each do |item|
+    puts item
   end
 end
