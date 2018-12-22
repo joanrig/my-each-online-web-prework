@@ -4,8 +4,6 @@ def my_each(collection)
     yield array[i]
     i = i + 1
   end
-  my_each(collection) do |i|
-    puts i
-  end
+  
 end
 
